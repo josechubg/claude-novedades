@@ -1,0 +1,725 @@
+[
+  {
+    "id": 1,
+    "bloque": "Miembro Superior",
+    "pregunta": "¿Qué músculo del manguito rotador es el más frecuentemente lesionado?",
+    "opciones": ["Infraespinoso", "Subescapular", "Supraespinoso", "Redondo menor", "Redondo mayor"],
+    "correcta": 2,
+    "explicacion": "El supraespinoso es el más frecuentemente lesionado porque pasa por debajo del arco coracoacromial, siendo susceptible al pinzamiento subacromial en movimientos de abducción del hombro."
+  },
+  {
+    "id": 2,
+    "bloque": "Miembro Superior",
+    "pregunta": "¿Qué nervio inerva el músculo deltoides?",
+    "opciones": ["Nervio radial", "Nervio musculocutáneo", "Nervio axilar", "Nervio mediano", "Nervio cubital"],
+    "correcta": 2,
+    "explicacion": "El nervio axilar (C5-C6) inerva el deltoides y el redondo menor. Pasa por el espacio cuadrilátero y puede lesionarse en luxaciones de hombro o fracturas del cuello quirúrgico del húmero."
+  },
+  {
+    "id": 3,
+    "bloque": "Miembro Superior",
+    "pregunta": "¿Cuántos huesos tiene el carpo?",
+    "opciones": ["6", "7", "8", "9", "10"],
+    "correcta": 2,
+    "explicacion": "El carpo tiene 8 huesos en 2 filas: fila proximal (escafoides, semilunar, piramidal, pisiforme) y fila distal (trapecio, trapezoide, grande, ganchoso). Mnemotecnia: 'El Señor Piramidal Pisa Trapezoidalmente Grandes Ganchos'."
+  },
+  {
+    "id": 4,
+    "bloque": "Miembro Superior",
+    "pregunta": "La lesión del nervio radial en el surco espiral del húmero produce:",
+    "opciones": ["Mano en garra", "Mano caída (wrist drop)", "Parálisis del pulgar", "Síndrome del túnel carpiano", "Atrofia de la eminencia tenar"],
+    "correcta": 1,
+    "explicacion": "La lesión del nervio radial en el surco espiral produce caída de la muñeca (wrist drop) por parálisis de los extensores de muñeca y dedos. También hay pérdida de sensibilidad en el dorso de la mano."
+  },
+  {
+    "id": 5,
+    "bloque": "Miembro Superior",
+    "pregunta": "¿Cuál de los siguientes músculos NO forma parte del manguito rotador?",
+    "opciones": ["Supraespinoso", "Infraespinoso", "Redondo menor", "Subescapular", "Redondo mayor"],
+    "correcta": 4,
+    "explicacion": "El manguito rotador está formado por 4 músculos: Supraespinoso, Infraespinoso, Redondo menor y Subescapular (SIRS). El redondo MAYOR no forma parte del manguito rotador."
+  },
+  {
+    "id": 6,
+    "bloque": "Miembro Superior",
+    "pregunta": "¿Cuál es el único músculo del manguito rotador que realiza rotación INTERNA del hombro?",
+    "opciones": ["Supraespinoso", "Infraespinoso", "Redondo menor", "Subescapular", "Deltoides (porción anterior)"],
+    "correcta": 3,
+    "explicacion": "El subescapular es el único músculo del manguito rotador que realiza rotación interna. Los demás (infraespinoso y redondo menor) realizan rotación externa. El supraespinoso inicia la abducción."
+  },
+  {
+    "id": 7,
+    "bloque": "Miembro Superior",
+    "pregunta": "¿Por qué estructura anatómica pasa el nervio mediano en la muñeca?",
+    "opciones": ["Canal de Guyon", "Túnel carpiano", "Espacio cuadrilátero", "Canal del nervio radial", "Surco bicipital"],
+    "correcta": 1,
+    "explicacion": "El nervio mediano pasa por el túnel carpiano junto con los 9 tendones flexores. El túnel está formado por los huesos del carpo (suelo) y el retináculo flexor (techo). Su compresión produce el síndrome del túnel carpiano."
+  },
+  {
+    "id": 8,
+    "bloque": "Miembro Superior",
+    "pregunta": "¿Qué huesos del carpo se articulan directamente con el radio?",
+    "opciones": ["Semilunar y pisiforme", "Escafoides y semilunar", "Trapecio y trapezoide", "Grande y ganchoso", "Piramidal y semilunar"],
+    "correcta": 1,
+    "explicacion": "El radio se articula directamente con el escafoides (mayor superficie de contacto) y el semilunar en la articulación radiocarpiana. El pisiforme no se articula con el radio."
+  },
+  {
+    "id": 9,
+    "bloque": "Miembro Superior",
+    "pregunta": "¿Cuál es la raíz nerviosa principal del nervio cubital?",
+    "opciones": ["C5-C6", "C6-C7", "C7-C8", "C8-T1", "T1-T2"],
+    "correcta": 3,
+    "explicacion": "El nervio cubital tiene sus raíces principales en C8-T1. Es el nervio terminal del fascículo medial del plexo braquial. Inerva los músculos intrínsecos de la mano (excepto los tenar y los 1º y 2º lumbricales)."
+  },
+  {
+    "id": 10,
+    "bloque": "Miembro Superior",
+    "pregunta": "La lesión del nervio cubital en el codo produce:",
+    "opciones": ["Mano caída", "Mano en predicador", "Garra cubital (4º y 5º dedos)", "Atrofia de la eminencia tenar", "Imposibilidad de supinación"],
+    "correcta": 2,
+    "explicacion": "La lesión del nervio cubital en el codo produce garra cubital (más marcada en 4º y 5º dedos) por parálisis de los interóseos y lumbricales 3º y 4º. La 'mano en predicador' se produce en lesiones altas del nervio mediano."
+  },
+  {
+    "id": 11,
+    "bloque": "Miembro Superior",
+    "pregunta": "¿Cuántas cabezas tiene el músculo tríceps braquial?",
+    "opciones": ["1", "2", "3", "4", "5"],
+    "correcta": 2,
+    "explicacion": "El tríceps braquial tiene 3 cabezas: cabeza larga (tubérculo infraglenoideo de la escápula), cabeza lateral (cara posterior del húmero, superior al surco radial) y cabeza medial (cara posterior del húmero, inferior al surco radial). Es el único extensor del codo."
+  },
+  {
+    "id": 12,
+    "bloque": "Miembro Superior",
+    "pregunta": "¿Qué nervio puede lesionarse en una fractura del cuello quirúrgico del húmero?",
+    "opciones": ["Nervio radial", "Nervio mediano", "Nervio cubital", "Nervio axilar", "Nervio musculocutáneo"],
+    "correcta": 3,
+    "explicacion": "El nervio axilar pasa muy cerca del cuello quirúrgico del húmero (pasa por el espacio cuadrilátero). Puede lesionarse en fracturas de esta zona o luxaciones anteriores de hombro, produciendo parálisis del deltoides y pérdida de sensibilidad en el hombro."
+  },
+  {
+    "id": 13,
+    "bloque": "Miembro Superior",
+    "pregunta": "La articulación del codo comprende, dentro de una misma cápsula articular:",
+    "opciones": ["1 articulación", "2 articulaciones", "3 articulaciones", "4 articulaciones", "5 articulaciones"],
+    "correcta": 2,
+    "explicacion": "La articulación del codo comprende 3 articulaciones dentro de una misma cápsula: articulación húmero-cubital (troclear, en bisagra), húmero-radial (condílea) y radiocubital proximal (trocoide). Las dos primeras permiten flexo-extensión; la tercera, prono-supinación."
+  },
+  {
+    "id": 14,
+    "bloque": "Miembro Superior",
+    "pregunta": "¿Cuál es el hueso del carpo más frecuentemente fracturado?",
+    "opciones": ["Semilunar", "Piramidal", "Escafoides", "Trapecio", "Ganchoso"],
+    "correcta": 2,
+    "explicacion": "El escafoides es el hueso del carpo más frecuentemente fracturado, típicamente por caída con la muñeca en extensión forzada. Tiene alto riesgo de necrosis avascular por su precaria irrigación (entra distalmente). La fractura puede no verse en radiografía inicial."
+  },
+  {
+    "id": 15,
+    "bloque": "Miembro Superior",
+    "pregunta": "Los músculos interóseos palmares realizan principalmente:",
+    "opciones": ["Abducción de los dedos", "Aducción de los dedos", "Extensión de los dedos", "Flexión de la muñeca", "Supinación del antebrazo"],
+    "correcta": 1,
+    "explicacion": "Mnemotecnia: PAD y DAB. Palmares ADuctores (3 interóseos palmares aducen los dedos hacia el eje de la mano, el 3er dedo). Dorsales ABductores (4 interóseos dorsales abducen los dedos). Todos están inervados por el nervio cubital."
+  },
+  {
+    "id": 16,
+    "bloque": "Miembro Superior",
+    "pregunta": "El plexo braquial está formado por las ramas anteriores de los nervios espinales:",
+    "opciones": ["C3-C7", "C4-T1", "C5-T1", "C5-T2", "C6-T1"],
+    "correcta": 2,
+    "explicacion": "El plexo braquial está formado por C5, C6, C7, C8 y T1. Se organiza en raíces → troncos (superior C5-C6, medio C7, inferior C8-T1) → divisiones → fascículos (lateral, posterior, medial) → ramas terminales."
+  },
+  {
+    "id": 17,
+    "bloque": "Miembro Superior",
+    "pregunta": "La arteria radial pasa por el fondo de la tabaquera anatómica entre los tendones de:",
+    "opciones": ["Extensor largo y corto del pulgar", "Extensor largo del pulgar y extensor corto + abductor largo del pulgar", "Extensor del índice y extensor largo del pulgar", "Flexor largo y extensor largo del pulgar", "Extensor cubital y extensor radial del carpo"],
+    "correcta": 1,
+    "explicacion": "La tabaquera anatómica está delimitada medialmente por el tendón del extensor largo del pulgar y lateralmente por los tendones del extensor corto del pulgar y abductor largo del pulgar. Por su fondo pasa la arteria radial, el escafoides y el trapecio."
+  },
+  {
+    "id": 18,
+    "bloque": "Miembro Superior",
+    "pregunta": "¿Qué estructura forma el TECHO del túnel carpiano?",
+    "opciones": ["Huesos del carpo", "Retináculo flexor (ligamento carpiano transverso)", "Retináculo extensor", "Aponeurosis palmar", "Fascia antebaquial"],
+    "correcta": 1,
+    "explicacion": "El techo del túnel carpiano está formado por el retináculo flexor (ligamento carpiano transverso). El suelo y las paredes laterales los forman los huesos del carpo. Por el túnel pasan el nervio mediano y los 9 tendones flexores (4 FSD, 4 FDP y 1 FLP)."
+  },
+  {
+    "id": 19,
+    "bloque": "Miembro Superior",
+    "pregunta": "¿Qué músculo es el principal abductor del hombro iniciando el movimiento (0-15°)?",
+    "opciones": ["Deltoides", "Pectoral mayor", "Supraespinoso", "Trapecio", "Serrato anterior"],
+    "correcta": 2,
+    "explicacion": "El supraespinoso inicia la abducción del hombro (0-15°). El deltoides continúa la abducción hasta 90°. Por encima de 90° intervienen el trapecio y el serrato anterior rotando la escápula. En la lesión del supraespinoso, el paciente no puede iniciar la abducción (signo del arco doloroso)."
+  },
+  {
+    "id": 20,
+    "bloque": "Miembro Superior",
+    "pregunta": "En una fractura de la diáfisis del húmero, ¿qué nervio tiene mayor riesgo de lesionarse?",
+    "opciones": ["Nervio axilar", "Nervio mediano", "Nervio radial", "Nervio cubital", "Nervio musculocutáneo"],
+    "correcta": 2,
+    "explicacion": "El nervio radial discurre por el surco espiral (canal de torsión) del húmero, íntimamente relacionado con el hueso. En fracturas diafisarias del húmero (especialmente el tercio medio) puede lesionarse, produciendo mano caída (wrist drop)."
+  },
+  {
+    "id": 21,
+    "bloque": "Miembro Superior",
+    "pregunta": "¿Qué nervio inerva el músculo braquiorradial?",
+    "opciones": ["Nervio mediano", "Nervio cubital", "Nervio musculocutáneo", "Nervio radial", "Nervio axilar"],
+    "correcta": 3,
+    "explicacion": "El braquiorradial está inervado por el nervio radial, aunque es un flexor del codo. Es la excepción: único flexor de codo inervado por el nervio radial (el resto de flexores están inervados por el musculocutáneo). Actúa mejor con el antebrazo en posición neutra."
+  },
+  {
+    "id": 22,
+    "bloque": "Miembro Superior",
+    "pregunta": "La lesión del nervio mediano en la muñeca produce atrofia de la eminencia:",
+    "opciones": ["Hipotenar", "Tenar", "Interóseos", "Lumbricales 3º y 4º", "Aductor del pulgar"],
+    "correcta": 1,
+    "explicacion": "La lesión del nervio mediano en la muñeca (síndrome del túnel carpiano) produce atrofia de la eminencia tenar (abductor corto, oponente y flexor corto del pulgar superficial) y parálisis de los lumbricales 1º y 2º. El aductor del pulgar y la hipotenar están inervados por el cubital."
+  },
+  {
+    "id": 23,
+    "bloque": "Miembro Superior",
+    "pregunta": "¿Cuántos huesos tiene la mano (incluyendo carpo, metacarpo y falanges)?",
+    "opciones": ["24", "27", "29", "31", "33"],
+    "correcta": 1,
+    "explicacion": "La mano tiene 27 huesos: 8 del carpo + 5 metacarpianos + 14 falanges (2 en el pulgar y 3 en los demás dedos). Es la estructura ósea más compleja del cuerpo."
+  },
+  {
+    "id": 24,
+    "bloque": "Miembro Superior",
+    "pregunta": "¿Qué músculo del manguito rotador se lesiona en el test de Gerber (lift-off test)?",
+    "opciones": ["Supraespinoso", "Infraespinoso", "Redondo menor", "Subescapular", "Redondo mayor"],
+    "correcta": 3,
+    "explicacion": "El test de Gerber o lift-off test evalúa la integridad del subescapular. El paciente coloca la mano en la espalda y trata de separarla del cuerpo contra resistencia. Si no puede, hay lesión del subescapular."
+  },
+  {
+    "id": 25,
+    "bloque": "Miembro Superior",
+    "pregunta": "La arteria axilar se convierte en arteria braquial al pasar el borde inferior de:",
+    "opciones": ["Pectoral menor", "Pectoral mayor", "Redondo mayor", "Redondo menor", "Subescapular"],
+    "correcta": 2,
+    "explicacion": "La arteria axilar se convierte en arteria braquial (humeral) al pasar por debajo del borde inferior del músculo redondo mayor. La arteria braquial discurre por el compartimento medial del brazo y se divide en radial y cubital en la fosa cubital."
+  },
+
+  {
+    "id": 26,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Cuántos huesos forma el tarso?",
+    "opciones": ["5", "6", "7", "8", "9"],
+    "correcta": 2,
+    "explicacion": "El tarso está formado por 7 huesos: calcáneo, astrágalo (talo), escafoides (navicular), cuboides y 3 cuneiformes (medial, intermedio y lateral). Los 2 primeros forman el tarso posterior y los 5 restantes el tarso anterior."
+  },
+  {
+    "id": 27,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Cuál es el músculo más potente y voluminoso del cuerpo humano?",
+    "opciones": ["Cuádriceps femoral", "Glúteo mayor", "Sóleo", "Gastrocnemio", "Isquiotibiales"],
+    "correcta": 1,
+    "explicacion": "El glúteo mayor es el músculo más voluminoso del cuerpo. Es el principal extensor y rotador externo de la cadera. Su potencia es fundamental para subir escaleras, levantarse de una silla y correr."
+  },
+  {
+    "id": 28,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Qué nervio inerva el músculo cuádriceps femoral?",
+    "opciones": ["Nervio obturador", "Nervio ciático", "Nervio femoral", "Nervio peroneo común", "Nervio tibial"],
+    "correcta": 2,
+    "explicacion": "El cuádriceps femoral (recto femoral, vasto medial, vasto lateral y vasto intermedio) está inervado por el nervio femoral (L2-L4). Su parálisis impide la extensión de la rodilla."
+  },
+  {
+    "id": 29,
+    "bloque": "Miembro Inferior",
+    "pregunta": "El nervio ciático se divide en sus dos ramas terminales en:",
+    "opciones": ["El agujero ciático mayor", "El triángulo femoral de Scarpa", "El canal de Hunter (canal aductor)", "El vértice de la fosa poplítea", "El canal del tarso"],
+    "correcta": 3,
+    "explicacion": "El nervio ciático se divide en el nervio tibial y el nervio peroneo (fibular) común en el vértice de la fosa poplítea. Aunque en algunos individuos la división puede ocurrir más arriba, incluso en la pelvis."
+  },
+  {
+    "id": 30,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Cuál es el ligamento más resistente de la articulación de la cadera?",
+    "opciones": ["Ligamento redondo (teres)", "Ligamento iliofemoral (de Bigelow)", "Ligamento isquiofemoral", "Ligamento pubofemoral", "Ligamento acetabular transverso"],
+    "correcta": 1,
+    "explicacion": "El ligamento iliofemoral (ligamento de Bigelow) es el ligamento más resistente del organismo humano. Tiene forma de Y invertida, limita la extensión y rotación externa de la cadera. Es fundamental para la posición bípeda."
+  },
+  {
+    "id": 31,
+    "bloque": "Miembro Inferior",
+    "pregunta": "La lesión del nervio peroneo (fibular) común en el cuello del peroné produce:",
+    "opciones": ["Pie equino", "Pie varo", "Pie caído (drop foot)", "Pie plano", "Parálisis de los flexores plantares"],
+    "correcta": 2,
+    "explicacion": "La lesión del nervio peroneo común en el cuello del peroné produce pie caído (drop foot) por parálisis de los músculos dorsiflexores del tobillo y eversores del pie. El paciente camina con marcha en steppage (levantando exageradamente el pie)."
+  },
+  {
+    "id": 32,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Qué músculos forman los isquiotibiales?",
+    "opciones": ["Bíceps femoral, semitendinoso y semimembranoso", "Bíceps femoral, grácil y sartorio", "Semimembranoso, semitendinoso y grácil", "Bíceps femoral, poplíteo y plantar delgado", "Semitendinoso, semimembranoso y aductor mayor"],
+    "correcta": 0,
+    "explicacion": "Los isquiotibiales son el bíceps femoral (cabeza larga y corta), semitendinoso y semimembranoso. Se originan en la tuberosidad isquiática, extienden la cadera y flexionan la rodilla. Están inervados por el nervio ciático."
+  },
+  {
+    "id": 33,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Qué triángulo del muslo contiene la arteria femoral, vena femoral y nervio femoral?",
+    "opciones": ["Triángulo de Petit", "Triángulo poplíteo", "Triángulo femoral (de Scarpa)", "Triángulo lumbar", "Triángulo inguinal"],
+    "correcta": 2,
+    "explicacion": "El triángulo femoral (de Scarpa) está limitado por el ligamento inguinal (arriba), el músculo sartorio (lateral) y el aductor largo (medial). Contiene la arteria femoral, vena femoral y nervio femoral. De lateral a medial: Nervio, Arteria, Vena (NAV)."
+  },
+  {
+    "id": 34,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Cuál es el hueso más largo del cuerpo humano?",
+    "opciones": ["Tibia", "Peroné", "Húmero", "Fémur", "Radio"],
+    "correcta": 3,
+    "explicacion": "El fémur es el hueso más largo, más pesado y más fuerte del cuerpo humano. Mide aproximadamente 1/4 de la estatura del individuo."
+  },
+  {
+    "id": 35,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Cuál es el principal músculo responsable de la flexión plantar del tobillo?",
+    "opciones": ["Tibial anterior", "Extensor largo de los dedos", "Tríceps sural (gastrocnemio + sóleo)", "Tibial posterior", "Peroneo largo"],
+    "correcta": 2,
+    "explicacion": "El tríceps sural (formado por gastrocnemio y sóleo) es el principal flexor plantar del tobillo. Se inserta en el calcáneo mediante el tendón calcáneo (de Aquiles), el tendón más grueso del cuerpo. El gastrocnemio también flexiona la rodilla."
+  },
+  {
+    "id": 36,
+    "bloque": "Miembro Inferior",
+    "pregunta": "La arteria femoral es continuación directa de la arteria:",
+    "opciones": ["Aorta abdominal", "Ilíaca común", "Ilíaca interna", "Ilíaca externa", "Pudenda interna"],
+    "correcta": 3,
+    "explicacion": "La arteria ilíaca externa se convierte en arteria femoral al pasar por debajo del ligamento inguinal (a través de la laguna vascular). La arteria femoral luego atraviesa el canal de Hunter y se convierte en arteria poplítea."
+  },
+  {
+    "id": 37,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Qué músculo es el principal abductor de la cadera? Su parálisis produce la marcha de Trendelenburg.",
+    "opciones": ["Glúteo mayor", "Glúteo medio", "Psoas iliaco", "Aductor mayor", "Pectíneo"],
+    "correcta": 1,
+    "explicacion": "El glúteo medio (y glúteo menor) es el principal abductor de la cadera. Su parálisis (por lesión del nervio glúteo superior o en luxaciones de cadera) produce la marcha de Trendelenburg: el hemipelvis contralateral cae al apoyar el lado afecto."
+  },
+  {
+    "id": 38,
+    "bloque": "Miembro Inferior",
+    "pregunta": "El tendón de Aquiles (calcáneo) se inserta en:",
+    "opciones": ["Cabeza del peroné", "Maléolo medial", "Tuberosidad del calcáneo", "Base del 5º metatarsiano", "Astrágalo"],
+    "correcta": 2,
+    "explicacion": "El tendón de Aquiles (tendón calcáneo) es el tendón más grueso y fuerte del cuerpo. Se inserta en la cara posterior de la tuberosidad del calcáneo. Es la unión del gastrocnemio y el sóleo."
+  },
+  {
+    "id": 39,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Cuál de los siguientes músculos pertenece al compartimento ANTERIOR de la pierna?",
+    "opciones": ["Gastrocnemio", "Sóleo", "Tibial posterior", "Tibial anterior", "Flexor largo del hallux"],
+    "correcta": 3,
+    "explicacion": "El compartimento anterior de la pierna contiene: tibial anterior, extensor largo del hallux, extensor largo de los dedos y peroneo tercero. Están inervados por el nervio peroneo profundo y realizan dorsiflexión del tobillo."
+  },
+  {
+    "id": 40,
+    "bloque": "Miembro Inferior",
+    "pregunta": "Los ligamentos cruzados de la rodilla son:",
+    "opciones": ["Sinoviales e intracapsulares", "Extrasinoviales e intracapsulares", "Extrasinoviales y extracapsulares", "Intrasinoviales y extracapsulares", "Capsulares y extraarticulares"],
+    "correcta": 1,
+    "explicacion": "Los ligamentos cruzados (anterior y posterior) son intracapsulares pero extrasinoviales: están dentro de la cápsula fibrosa de la rodilla pero fuera de la cavidad sinovial. El LCA impide el desplazamiento anterior de la tibia; el LCP, el posterior."
+  },
+  {
+    "id": 41,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Cuál es la función principal del músculo psoas iliaco?",
+    "opciones": ["Extensión de la cadera", "Abducción de la cadera", "Flexión de la cadera", "Rotación externa de la cadera", "Aducción de la cadera"],
+    "correcta": 2,
+    "explicacion": "El psoas iliaco es el principal flexor de la cadera. Se origina en los cuerpos vertebrales T12-L4 (psoas mayor) y en la fosa ilíaca (iliaco), y se inserta en el trocánter menor del fémur. También puede flexionar la columna lumbar."
+  },
+  {
+    "id": 42,
+    "bloque": "Miembro Inferior",
+    "pregunta": "La cabeza del fémur recibe su aporte sanguíneo principalmente de:",
+    "opciones": ["Arteria femoral directamente", "Arterias circunflejas femorales medial y lateral", "Arteria obturatriz exclusivamente", "Arteria glútea superior", "Arteria del ligamento redondo únicamente"],
+    "correcta": 1,
+    "explicacion": "Las arterias circunflejas femorales medial y lateral (ramas de la arteria femoral profunda) son el principal aporte sanguíneo de la cabeza femoral. Esto explica el alto riesgo de necrosis avascular en fracturas del cuello femoral, que interrumpen este aporte."
+  },
+  {
+    "id": 43,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Qué porcentaje del peso corporal soporta la tibia en comparación con el peroné?",
+    "opciones": ["50%-50%", "La tibia soporta ~85% y el peroné ~15%", "La tibia soporta todo el peso", "El peroné soporta ~85%", "Varía según la actividad física"],
+    "correcta": 1,
+    "explicacion": "La tibia soporta aproximadamente el 85% del peso corporal transmitido de la rodilla al tobillo. El peroné es principalmente un hueso para la inserción muscular y la estabilización del tobillo (forma el maléolo lateral)."
+  },
+  {
+    "id": 44,
+    "bloque": "Miembro Inferior",
+    "pregunta": "El nervio obturador inerva principalmente los músculos:",
+    "opciones": ["Extensores de la rodilla", "Aductores de la cadera", "Abductores de la cadera", "Flexores plantares del tobillo", "Extensores del tobillo"],
+    "correcta": 1,
+    "explicacion": "El nervio obturador (L2-L4) inerva principalmente los músculos aductores de la cadera: aductor largo, aductor corto, aductor mayor (porción), grácil y obturador externo."
+  },
+  {
+    "id": 45,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Cuántas cabezas tiene el músculo cuádriceps femoral?",
+    "opciones": ["2", "3", "4", "5", "1"],
+    "correcta": 2,
+    "explicacion": "El cuádriceps femoral tiene 4 cabezas: recto femoral (origen en la espina ilíaca anteroinferior), vasto medial (interno), vasto lateral (externo) y vasto intermedio (crural). Todas convergen en el tendón cuadricipital que se inserta en la rótula y la tuberosidad tibial."
+  },
+  {
+    "id": 46,
+    "bloque": "Miembro Inferior",
+    "pregunta": "La articulación de la rodilla incluye:",
+    "opciones": ["Solo la articulación femorotibial", "Femorotibial y femoropatelar", "Femorotibial, femoropatelar y tibioperonea superior", "Solo la articulación femoropatelar", "Femorotibial, femoropatelar, tibioperonea superior e inferior"],
+    "correcta": 1,
+    "explicacion": "La articulación de la rodilla incluye la articulación femorotibial (medial y lateral, en cóndilo) y la femoropatelar (en silla de montar), todo dentro de una misma cavidad articular. La articulación tibioperonea superior es independiente."
+  },
+  {
+    "id": 47,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Cuál es el ligamento que se lesiona más frecuentemente en los esguinces de tobillo?",
+    "opciones": ["Ligamento deltoideo (medial)", "Ligamento tibioperoneal anterior", "Ligamento peroneoastragalino anterior", "Ligamento peroneocalcáneo", "Ligamento tibioperoneal posterior"],
+    "correcta": 2,
+    "explicacion": "El ligamento peroneoastragalino anterior es el más débil del complejo ligamentoso lateral del tobillo y el que se lesiona primero en los esguinces por inversión (el mecanismo más frecuente). El ligamento deltoideo (medial) es mucho más resistente."
+  },
+  {
+    "id": 48,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Qué estructura anatómica forma el suelo del triángulo femoral de Scarpa?",
+    "opciones": ["Ligamento inguinal", "Músculo pectíneo e iliopsoas", "Músculo aductor largo", "Fascia lata", "Músculo sartorio"],
+    "correcta": 1,
+    "explicacion": "El suelo del triángulo femoral está formado medialmente por el músculo pectíneo y lateralmente por el músculo iliopsoas. El techo lo forma la fascia lata. El ligamento inguinal forma el lado superior (base del triángulo)."
+  },
+  {
+    "id": 49,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Cuántos huesos forman el coxal (hueso de la cadera)?",
+    "opciones": ["1 hueso sin divisiones", "2 huesos fusionados", "3 huesos fusionados: ilion, isquion y pubis", "4 huesos fusionados", "5 huesos fusionados"],
+    "correcta": 2,
+    "explicacion": "El coxal está formado por la fusión de 3 huesos: ilion (superior), isquion (posteroinferior) y pubis (anteroinferior). La fusión ocurre en el acetábulo alrededor de los 15-17 años. El coxal se articula con el sacro (articulación sacroilíaca) y con el fémur (articulación coxofemoral)."
+  },
+  {
+    "id": 50,
+    "bloque": "Miembro Inferior",
+    "pregunta": "¿Qué músculo es el principal responsable de la inversión del pie?",
+    "opciones": ["Peroneo largo", "Peroneo corto", "Tibial anterior", "Extensor largo del hallux", "Gastrocnemio"],
+    "correcta": 2,
+    "explicacion": "El tibial anterior (nervio peroneo profundo) es el principal inversor y dorsiflexor del tobillo. Se inserta en el 1er cuneiforme y la base del 1er metatarsiano. Los músculos peroneos realizan la función contraria (eversión y flexión plantar)."
+  },
+
+  {
+    "id": 51,
+    "bloque": "Cráneo",
+    "pregunta": "¿Cuántos huesos forman el neurocráneo (caja craneana que protege el encéfalo)?",
+    "opciones": ["6", "7", "8", "9", "10"],
+    "correcta": 2,
+    "explicacion": "El neurocráneo está formado por 8 huesos: frontal (1), parietales (2), temporales (2), occipital (1), esfenoides (1) y etmoides (1). El viscerocráneo (esqueleto facial) tiene 14 huesos adicionales."
+  },
+  {
+    "id": 52,
+    "bloque": "Cráneo",
+    "pregunta": "¿Cómo se llama la sutura que une los dos huesos parietales en la línea media?",
+    "opciones": ["Sutura coronal", "Sutura lambdoidea", "Sutura sagital", "Sutura escamosa", "Sutura esfenoidal"],
+    "correcta": 2,
+    "explicacion": "La sutura sagital une los dos huesos parietales en la línea media del cráneo, de anterior a posterior. Junto con la sutura coronal y lambdoidea, forma las suturas principales del cráneo."
+  },
+  {
+    "id": 53,
+    "bloque": "Cráneo",
+    "pregunta": "¿Cuál es el foramen más grande de la base del cráneo? ¿Qué pasa por él?",
+    "opciones": ["Foramen oval: nervio mandibular", "Foramen redondo: nervio maxilar", "Foramen espinoso: arteria meníngea media", "Foramen magno: bulbo raquídeo y arterias vertebrales", "Foramen yugular: nervios IX, X, XI"],
+    "correcta": 3,
+    "explicacion": "El foramen magno (agujero occipital) es el mayor foramen de la base del cráneo. Por él pasan el bulbo raquídeo (continuación de la médula espinal), las arterias vertebrales, las venas emisarias y la parte espinal del nervio accesorio (XI)."
+  },
+  {
+    "id": 54,
+    "bloque": "Cráneo",
+    "pregunta": "¿En qué estructura del esfenoides se aloja la hipófisis?",
+    "opciones": ["Lámina cribosa", "Silla turca (fosa hipofisaria)", "Porción petrosa", "Apófisis mastoides", "Ala mayor del esfenoides"],
+    "correcta": 1,
+    "explicacion": "La hipófisis (glándula pituitaria) se aloja en la silla turca (fosa hipofisaria) del cuerpo del hueso esfenoides, en la fosa craneal media. Está rodeada por el seno cavernoso a ambos lados."
+  },
+  {
+    "id": 55,
+    "bloque": "Cráneo",
+    "pregunta": "¿Por qué foramen sale el nervio óptico (II par craneal) de la órbita?",
+    "opciones": ["Fisura orbitaria superior", "Canal óptico (conducto óptico)", "Foramen redondo", "Foramen oval", "Fisura orbitaria inferior"],
+    "correcta": 1,
+    "explicacion": "El nervio óptico (II par craneal) sale de la órbita por el canal óptico (conducto óptico), junto con la arteria oftálmica. La fisura orbitaria superior transmite los nervios oculomotores (III, IV, VI) y la rama oftálmica del trigémino (V1)."
+  },
+  {
+    "id": 56,
+    "bloque": "Cráneo",
+    "pregunta": "¿Cuál es la sutura entre el hueso frontal y los huesos parietales?",
+    "opciones": ["Sutura sagital", "Sutura lambdoidea", "Sutura coronal", "Sutura escamosa", "Sutura métopica"],
+    "correcta": 2,
+    "explicacion": "La sutura coronal une el hueso frontal con los dos huesos parietales. Se llama coronal porque discurre en el plano coronal (frontal). La fontanela anterior (bregmática) se localiza en la intersección de la sutura coronal con la sagital."
+  },
+  {
+    "id": 57,
+    "bloque": "Cráneo",
+    "pregunta": "¿Qué hueso contiene el oído interno (laberinto óseo) y el oído medio?",
+    "opciones": ["Frontal", "Occipital", "Parietal", "Temporal (porción petrosa)", "Esfenoides"],
+    "correcta": 3,
+    "explicacion": "El hueso temporal (porción petrosa) contiene el oído interno (laberinto óseo con cóclea y canales semicirculares) y el oído medio (caja del tímpano con los huesecillos: martillo, yunque y estribo)."
+  },
+  {
+    "id": 58,
+    "bloque": "Cráneo",
+    "pregunta": "¿Qué estructuras pasan por la fisura orbitaria superior?",
+    "opciones": ["II, III, IV, V1, VI", "III, IV, V1 y VI (nervio abducens)", "II, III, IV, VI", "V1, V2, VI", "III, IV, V2, VI"],
+    "correcta": 1,
+    "explicacion": "Por la fisura orbitaria superior pasan los nervios craneales III (oculomotor), IV (troclear), V1 (rama oftálmica del trigémino) y VI (abducens), además de la vena oftálmica superior. El II par (óptico) pasa por el canal óptico."
+  },
+  {
+    "id": 59,
+    "bloque": "Cráneo",
+    "pregunta": "¿Cuántos huesos forman el viscerocráneo (esqueleto facial)?",
+    "opciones": ["10", "12", "14", "16", "18"],
+    "correcta": 2,
+    "explicacion": "El viscerocráneo tiene 14 huesos: maxilares (2), palatinos (2), cigomáticos (2), nasales (2), lagrimales (2), cornetes nasales inferiores (2), vómer (1) y mandíbula (1). La mandíbula es el único hueso móvil del cráneo."
+  },
+  {
+    "id": 60,
+    "bloque": "Cráneo",
+    "pregunta": "¿Cuál es el único hueso móvil del cráneo?",
+    "opciones": ["Vómer", "Temporal", "Mandíbula", "Esfenoides", "Hueso hioides"],
+    "correcta": 2,
+    "explicacion": "La mandíbula es el único hueso móvil del cráneo. La articulación temporomandibular (ATM) es una articulación sinovial bicondílea que permite los movimientos de apertura/cierre, protrusión/retrusión y lateralidad (masticación)."
+  },
+  {
+    "id": 61,
+    "bloque": "Cráneo",
+    "pregunta": "¿Qué arteria pasa por el foramen espinoso y puede lesionarse en fracturas del temporal?",
+    "opciones": ["Arteria carótida interna", "Arteria meníngea media", "Arteria vertebral", "Arteria basilar", "Arteria comunicante posterior"],
+    "correcta": 1,
+    "explicacion": "La arteria meníngea media entra al cráneo por el foramen espinoso del ala mayor del esfenoides. Discurre por la fosa temporal y puede lesionarse en traumatismos del temporal, produciendo hematoma epidural (entre el cráneo y la duramadre)."
+  },
+  {
+    "id": 62,
+    "bloque": "Cráneo",
+    "pregunta": "¿Qué nervio craneal pasa por el foramen oval?",
+    "opciones": ["V1 (oftálmico)", "V2 (maxilar)", "V3 (mandibular)", "VI (abducens)", "VII (facial)"],
+    "correcta": 2,
+    "explicacion": "El nervio mandibular (V3, rama del trigémino) pasa por el foramen oval del ala mayor del esfenoides. V2 (maxilar) pasa por el foramen redondo. V1 (oftálmico) pasa por la fisura orbitaria superior."
+  },
+  {
+    "id": 63,
+    "bloque": "Cráneo",
+    "pregunta": "La fontanela anterior (bregmática) del recién nacido se encuentra en la intersección de:",
+    "opciones": ["Sutura coronal y sagital", "Sutura sagital y lambdoidea", "Sutura coronal y escamosa", "Sutura lambdoidea y escamosa", "Sutura coronal y esfenoidal"],
+    "correcta": 0,
+    "explicacion": "La fontanela anterior (bregmática) es la fontanela más grande. Se localiza en la unión de la sutura coronal (frontal-parietal) con la sagital (interparietal). Permite la palpación de pulso intracraneal y se cierra alrededor de los 18-24 meses de vida."
+  },
+  {
+    "id": 64,
+    "bloque": "Cráneo",
+    "pregunta": "¿Cuántos pares de senos paranasales existen?",
+    "opciones": ["2", "3", "4", "5", "6"],
+    "correcta": 2,
+    "explicacion": "Existen 4 pares de senos paranasales: frontales, maxilares (los más grandes, frecuentemente afectados en sinusitis), etmoidales (celdillas) y esfenoidales. Todos drenan en la cavidad nasal y están revestidos de mucosa respiratoria."
+  },
+  {
+    "id": 65,
+    "bloque": "Cráneo",
+    "pregunta": "El pterion es el punto de unión de los huesos:",
+    "opciones": ["Frontal, parietal, temporal y ala mayor del esfenoides", "Frontal y parietal (bregma)", "Parietal, temporal y occipital (asterion)", "Parietal y occipital (lambda)", "Occipital y temporal únicamente"],
+    "correcta": 0,
+    "explicacion": "El pterion es la unión de 4 huesos: frontal, parietal, ala mayor del esfenoides y temporal. Es la zona más delgada del cráneo y está suprayacente a la arteria meníngea media, de ahí su importancia clínica en traumatismos craneales."
+  },
+  {
+    "id": 66,
+    "bloque": "Cráneo",
+    "pregunta": "¿En qué fosa craneal se encuentra la silla turca (fosa hipofisaria)?",
+    "opciones": ["Fosa craneal anterior", "Fosa craneal media", "Fosa craneal posterior", "A caballo entre anterior y media", "A caballo entre media y posterior"],
+    "correcta": 1,
+    "explicacion": "La silla turca se encuentra en la fosa craneal media, en el cuerpo del esfenoides. Está delimitada anteriormente por el tubérculo de la silla y posteriormente por el dorso de la silla."
+  },
+  {
+    "id": 67,
+    "bloque": "Cráneo",
+    "pregunta": "¿Qué nervios craneales salen por el foramen yugular?",
+    "opciones": ["VII, VIII", "IX, X, XI", "X, XI, XII", "VI, VII, VIII", "IX, X, XII"],
+    "correcta": 1,
+    "explicacion": "Por el foramen yugular pasan los nervios craneales IX (glosofaríngeo), X (vago) y XI (espinal accesorio), además de la vena yugular interna. El XII (hipogloso) pasa por el canal del hipogloso."
+  },
+  {
+    "id": 68,
+    "bloque": "Cráneo",
+    "pregunta": "¿Qué hueso forma la mayor parte del techo de las órbitas oculares?",
+    "opciones": ["Esfenoides", "Etmoides", "Frontal", "Parietal", "Cigomático"],
+    "correcta": 2,
+    "explicacion": "El hueso frontal (porción orbitaria) forma la mayor parte del techo de las órbitas. El techo también es el suelo de la fosa craneal anterior. Por eso, en traumatismos del techo orbitario puede haber comunicación con la fosa anterior."
+  },
+  {
+    "id": 69,
+    "bloque": "Cráneo",
+    "pregunta": "¿Cuál es el punto de la base del cráneo donde se unen la sutura sagital y la lambdoidea?",
+    "opciones": ["Bregma", "Lambda", "Pterion", "Asterion", "Inion"],
+    "correcta": 1,
+    "explicacion": "Lambda es el punto de unión de la sutura sagital (interparietal) y la sutura lambdoidea (parieto-occipital). Aquí se encuentra la fontanela posterior (lambdoidea) en el neonato, que se cierra a los 2-3 meses de vida."
+  },
+  {
+    "id": 70,
+    "bloque": "Cráneo",
+    "pregunta": "La lámina cribosa del etmoides contiene pequeños orificios por donde pasan:",
+    "opciones": ["Nervios olfatorios (I par craneal)", "Nervio óptico (II par)", "Ramas del trigémino (V par)", "Nervio facial (VII par)", "Nervio glosofaríngeo (IX par)"],
+    "correcta": 0,
+    "explicacion": "La lámina cribosa del etmoides tiene numerosos pequeños orificios (foramina) por donde pasan los filamentos olfatorios del nervio olfatorio (I par craneal) desde la mucosa nasal al bulbo olfatorio. Los traumatismos de la fosa anterior pueden lesionar el nervio olfatorio."
+  },
+
+  {
+    "id": 71,
+    "bloque": "Vértebras",
+    "pregunta": "¿Cuántas vértebras cervicales tiene la columna vertebral?",
+    "opciones": ["5", "6", "7", "8", "9"],
+    "correcta": 2,
+    "explicacion": "La columna cervical tiene 7 vértebras (C1-C7). Es el segmento más móvil de la columna. C1 (atlas) y C2 (axis) son atípicas. C7 se denomina vértebra prominente por su larga apófisis espinosa palpable."
+  },
+  {
+    "id": 72,
+    "bloque": "Vértebras",
+    "pregunta": "¿Cuál es el rasgo anatómico que distingue a las vértebras cervicales de las demás?",
+    "opciones": ["Cuerpo triangular", "Agujero transverso (foramen transverso)", "Apófisis espinosa muy larga", "Carillas articulares costales", "Gran cuerpo vertebral riñoniforme"],
+    "correcta": 1,
+    "explicacion": "El rasgo distintivo de las vértebras cervicales es el foramen (agujero) transverso en las apófisis transversas, por el que discurren las arterias vertebrales (C1-C6) y venas. Además tienen apófisis espinosas bífidas (excepto C1 que tiene tubérculo posterior, y C7)."
+  },
+  {
+    "id": 73,
+    "bloque": "Vértebras",
+    "pregunta": "¿Cómo se denomina la primera vértebra cervical (C1) y cuál es su característica principal?",
+    "opciones": ["Axis: tiene la apófisis odontoides", "Atlas: carece de cuerpo vertebral, es un anillo óseo", "Vértebra prominente: apófisis espinosa larga", "Epistrofeo: tiene fóveas costales", "Sacro: está fusionada"],
+    "correcta": 1,
+    "explicacion": "C1 se denomina atlas. Carece de cuerpo vertebral (cedido evolutivamente al axis como apófisis odontoides) y tiene la forma de un anillo con dos masas laterales. Se articula con los cóndilos occipitales (movimiento de 'decir que sí') y con el axis."
+  },
+  {
+    "id": 74,
+    "bloque": "Vértebras",
+    "pregunta": "¿Qué estructura anatómica caracteriza al axis (C2)?",
+    "opciones": ["Agujero transverso doble", "Apófisis odontoides (diente del axis)", "Cuerpo muy pequeño y rudimentario", "Ausencia total de apófisis espinosa", "Agujero vertebral de forma triangular"],
+    "correcta": 1,
+    "explicacion": "El axis (C2, epistrofeo) se caracteriza por la apófisis odontoides (diente del axis), que es en realidad el cuerpo del atlas fusionado al axis. Sirve como pivote para la rotación de la cabeza sobre el atlas (movimiento de 'decir que no'). Puede fracturarse en traumatismos."
+  },
+  {
+    "id": 75,
+    "bloque": "Vértebras",
+    "pregunta": "¿Cuántas vértebras torácicas tiene la columna y cuál es su característica?",
+    "opciones": ["10 vértebras; sin características especiales", "11 vértebras; apófisis espinosas horizontales", "12 vértebras; presentan carillas articulares costales (fóveas costales)", "13 vértebras; agujero transverso", "12 vértebras; cuerpo muy grande"],
+    "correcta": 2,
+    "explicacion": "La columna torácica tiene 12 vértebras (T1-T12). Se caracterizan por presentar fóveas (carillas) costales en el cuerpo para articularse con las cabezas de las costillas, y en las apófisis transversas (T1-T10) para articularse con los tubérculos costales."
+  },
+  {
+    "id": 76,
+    "bloque": "Vértebras",
+    "pregunta": "¿Cuántas vértebras lumbares existen y cuál es su característica principal?",
+    "opciones": ["4 vértebras; cuerpo triangular", "5 vértebras; cuerpo grande riñoniforme, sin agujero transverso ni fóveas costales", "6 vértebras; apófisis espinosa bífida", "5 vértebras; agujero transverso y fóveas costales", "4 vértebras; son las más pequeñas"],
+    "correcta": 1,
+    "explicacion": "La columna lumbar tiene 5 vértebras (L1-L5). Son las más grandes del raquis (cuerpo riñoniforme) por soportar mayor carga. Carecen de agujero transverso y de fóveas costales. Sus apófisis transversas son en realidad apófisis costiformes (costillas rudimentarias fusionadas)."
+  },
+  {
+    "id": 77,
+    "bloque": "Vértebras",
+    "pregunta": "¿Cuál es la curvatura de la columna lumbar y la columna torácica respectivamente?",
+    "opciones": ["Ambas tienen cifosis", "Lumbar: lordosis; Torácica: cifosis", "Ambas tienen lordosis", "Lumbar: cifosis; Torácica: lordosis", "Lumbar: escoliosis; Torácica: lordosis"],
+    "correcta": 1,
+    "explicacion": "La columna lumbar presenta lordosis (convexidad anterior), al igual que la columna cervical. La columna torácica y sacra presentan cifosis (convexidad posterior). Las lordosis cervical y lumbar son curvaturas secundarias (adquiridas con el desarrollo). La cifosis torácica es primaria (presente desde el feto)."
+  },
+  {
+    "id": 78,
+    "bloque": "Vértebras",
+    "pregunta": "El canal vertebral (foramen vertebral) está formado por:",
+    "opciones": ["Solo el cuerpo vertebral", "El cuerpo vertebral + el arco vertebral (pedículos + láminas)", "Solo el arco vertebral", "Los pedículos únicamente", "Las láminas y la apófisis espinosa"],
+    "correcta": 1,
+    "explicacion": "El canal vertebral (foramen vertebral) está formado anteriormente por el cuerpo vertebral y posteriormente por el arco vertebral (que incluye los pedículos y las láminas). El conjunto de forámenes vertebrales superpuestos forma el canal raquídeo que aloja la médula espinal."
+  },
+  {
+    "id": 79,
+    "bloque": "Vértebras",
+    "pregunta": "¿Cuántas vértebras se fusionan para formar el sacro?",
+    "opciones": ["3", "4", "5", "6", "7"],
+    "correcta": 2,
+    "explicacion": "El sacro está formado por la fusión de 5 vértebras sacras (S1-S5). Tiene forma de cuña triangular. Se articula con el coxal a través de la articulación sacroilíaca (bilateral) y con el cóccix inferiormente. Sus agujeros sacros anteriores y posteriores transmiten los nervios sacros."
+  },
+  {
+    "id": 80,
+    "bloque": "Vértebras",
+    "pregunta": "¿Cuál es el ligamento más largo del cuerpo humano?",
+    "opciones": ["Ligamento amarillo", "Ligamento interespinoso", "Ligamento longitudinal anterior", "Ligamento supraespinoso", "Ligamento nucal"],
+    "correcta": 2,
+    "explicacion": "El ligamento longitudinal anterior es el ligamento más largo del cuerpo. Se extiende desde el occipital hasta el sacro por la cara anterior de los cuerpos vertebrales. Es el principal limitador de la hiperextensión de la columna."
+  },
+  {
+    "id": 81,
+    "bloque": "Vértebras",
+    "pregunta": "¿Cuál es el contenido del núcleo pulposo del disco intervertebral?",
+    "opciones": ["Cartílago hialino compacto", "Tejido fibroso denso", "Gel de proteoglicanos con alto contenido en agua", "Médula ósea roja", "Tejido adiposo"],
+    "correcta": 2,
+    "explicacion": "El núcleo pulposo es el remanente de la notocorda fetal. Es un gel de proteoglicanos (principalmente agrecano) con alto contenido en agua (~88% en adultos jóvenes, disminuye con la edad). Actúa como amortiguador hidráulico de las fuerzas de compresión."
+  },
+  {
+    "id": 82,
+    "bloque": "Vértebras",
+    "pregunta": "¿Qué arteria discurre por el agujero transverso de las vértebras cervicales?",
+    "opciones": ["Arteria carótida interna", "Arteria carótida externa", "Arteria vertebral", "Arteria subclavia", "Arteria basilar"],
+    "correcta": 2,
+    "explicacion": "La arteria vertebral (rama de la arteria subclavia) discurre por los forámenes transversos desde C6 hasta C1. Luego entra al cráneo por el foramen magno y las dos arterias vertebrales se unen para formar la arteria basilar, que irriga el tronco del encéfalo y el cerebelo."
+  },
+  {
+    "id": 83,
+    "bloque": "Vértebras",
+    "pregunta": "¿Por qué foramen emergen los nervios espinales de la columna vertebral?",
+    "opciones": ["Foramen vertebral", "Foramen intervertebral (de conjunción)", "Foramen transverso", "Hiato sacro", "Foramen magno"],
+    "correcta": 1,
+    "explicacion": "Los nervios espinales emergen por los forámenes intervertebrales (agujeros de conjunción), formados entre los pedículos de dos vértebras adyacentes. La hernia discal puede comprimir el nervio en este espacio, produciendo radiculopatía."
+  },
+  {
+    "id": 84,
+    "bloque": "Vértebras",
+    "pregunta": "¿Cuántos pares de nervios espinales existen en total?",
+    "opciones": ["28 pares", "29 pares", "30 pares", "31 pares", "33 pares"],
+    "correcta": 3,
+    "explicacion": "Existen 31 pares de nervios espinales: 8 cervicales (C1-C8, siendo 8 a pesar de haber 7 vértebras), 12 torácicos, 5 lumbares, 5 sacros y 1 coccígeo. Cada nervio espinal tiene una raíz dorsal (sensitiva) y una raíz ventral (motora)."
+  },
+  {
+    "id": 85,
+    "bloque": "Vértebras",
+    "pregunta": "¿Cómo se denomina la terminación inferior de la médula espinal?",
+    "opciones": ["Cola de caballo (cauda equina)", "Filum terminale", "Cono medular", "Cauda equina y cono medular son lo mismo", "Ligamento denticulado"],
+    "correcta": 2,
+    "explicacion": "La médula espinal termina en el cono medular (generalmente en L1-L2 en adultos). Por debajo, las raíces nerviosas que descienden hasta sus forámenes correspondientes forman la cauda equina (cola de caballo). El filum terminale es el hilo fibroso del cono al cóccix."
+  },
+  {
+    "id": 86,
+    "bloque": "Vértebras",
+    "pregunta": "¿Entre qué vértebras NO existe disco intervertebral?",
+    "opciones": ["C2-C3", "C7-T1", "C1-C2 (atlas-axis)", "L4-L5", "L5-S1"],
+    "correcta": 2,
+    "explicacion": "Entre el atlas (C1) y el axis (C2) no existe disco intervertebral. La articulación atlantoaxoidea es una articulación sinovial trocoide que permite la rotación de la cabeza (~50% de la rotación cervical total). También entre el occipital y el atlas hay articulación sinovial sin disco."
+  },
+  {
+    "id": 87,
+    "bloque": "Vértebras",
+    "pregunta": "El ligamento amarillo conecta:",
+    "opciones": ["Los cuerpos vertebrales adyacentes", "Las apófisis espinosas adyacentes (parte posterior)", "Las láminas vertebrales adyacentes", "Las apófisis transversas adyacentes", "Los pedículos adyacentes"],
+    "correcta": 2,
+    "explicacion": "El ligamento amarillo (flavum) conecta las láminas de vértebras adyacentes. Es el más elástico de los ligamentos de la columna (rico en fibras elásticas, de ahí su color amarillento). La hipertrofia del ligamento amarillo puede contribuir a la estenosis del canal raquídeo."
+  },
+  {
+    "id": 88,
+    "bloque": "Vértebras",
+    "pregunta": "¿En qué nivel vertebral se realiza habitualmente la punción lumbar (lumbar puncture)?",
+    "opciones": ["L1-L2", "L2-L3", "L3-L4 o L4-L5", "L5-S1", "T12-L1"],
+    "correcta": 2,
+    "explicacion": "La punción lumbar se realiza habitualmente entre L3-L4 o L4-L5 (línea de Tuffier: línea que une las crestas ilíacas = nivel L4). A este nivel, la médula ya ha terminado (cono medular en L1-L2) y solo hay cauda equina, por lo que el riesgo de lesión medular es mínimo."
+  },
+  {
+    "id": 89,
+    "bloque": "Vértebras",
+    "pregunta": "¿Cuál es la vértebra más frecuentemente afectada en hernias discales que producen ciática?",
+    "opciones": ["L1-L2", "L2-L3", "L3-L4", "L4-L5 y L5-S1", "T12-L1"],
+    "correcta": 3,
+    "explicacion": "Las hernias discales lumbares se producen con más frecuencia en los niveles L4-L5 (afecta a la raíz L5) y L5-S1 (afecta a la raíz S1). Estas dos localizaciones representan más del 90% de las hernias discales lumbares sintomáticas."
+  },
+  {
+    "id": 90,
+    "bloque": "Vértebras",
+    "pregunta": "¿Cuántos huesos forman la columna vertebral en total (incluyendo sacro y cóccix)?",
+    "opciones": ["30 huesos", "31 huesos", "33 vértebras (26 huesos en el adulto)", "35 huesos", "28 huesos"],
+    "correcta": 2,
+    "explicacion": "En el neonato hay 33 vértebras (7C + 12T + 5L + 5S + 4Co). En el adulto, al fusionarse el sacro (5→1) y el cóccix (4→1), quedan 26 huesos vertebrales. La fórmula vertebral del adulto es: 7+12+5+1(sacro)+1(cóccix) = 26 huesos."
+  }
+]
