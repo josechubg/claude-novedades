@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claude Novedades</title>
+  <meta name="description" content="Novedades diarias de Anthropic y Claude: herramientas, modelos y aplicaciones." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-brand">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="48" fill="#d4765a" opacity="0.15"/>
+        <path d="M30 68 L50 28 L70 68" stroke="#d4765a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <path d="M38 54 H62" stroke="#d4765a" stroke-width="8" stroke-linecap="round"/>
+      </svg>
+      Claude Novedades
+    </div>
+    <div class="nav-links">
+      <button class="active" onclick="showTab('novedades', this)">Novedades</button>
+      <button onclick="showTab('herramientas', this)">Herramientas</button>
+      <button onclick="showTab('acerca', this)">Acerca</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Novedades de Claude</h1>
+    <p>Lo nuevo de Anthropic cada día: modelos, herramientas y aplicaciones con enlace directo.</p>
+    <div class="hero-meta">
+      <span id="hero-date">— Actualizado: —</span>
+      <span id="hero-count">— 0 novedades —</span>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- ═══ TAB: NOVEDADES ═══ -->
+    <section id="tab-novedades" class="tab-section active">
+      <div id="stats-bar" class="stats-bar"></div>
+      <div id="updates-container"></div>
+    </section>
+
+    <!-- ═══ TAB: HERRAMIENTAS ═══ -->
+    <section id="tab-herramientas" class="tab-section">
+      <p class="section-title">Catálogo de herramientas</p>
+      <div class="tools-filters" id="tools-filters"></div>
+      <div id="tools-grid" class="tools-grid"></div>
+    </section>
+
+    <!-- ═══ TAB: ACERCA ═══ -->
+    <section id="tab-acerca" class="tab-section">
+      <p class="section-title">Cómo funciona</p>
+
+      <div class="howto-box">
+        <h3>Añadir una novedad nueva (cada día)</h3>
+        <ol>
+          <li>Abre el archivo <code>data.json</code></li>
+          <li>En el array <code>"updates"</code>, añade un objeto al principio:
+            <br><br>
+            <code>{</code><br>
+            <code>&nbsp;"id": 99,</code><br>
+            <code>&nbsp;"date": "2026-04-16",</code><br>
+            <code>&nbsp;"title": "Título de la novedad",</code><br>
+            <code>&nbsp;"category": "API",</code><br>
+            <code>&nbsp;"description": "Breve descripción.",</code><br>
+            <code>&nbsp;"link": "https://...",</code><br>
+            <code>&nbsp;"isNew": true</code><br>
+            <code>}</code>
+          </li>
+          <li>Guarda y sube el archivo a GitHub. Se despliega solo en Vercel/Netlify.</li>
+        </ol>
+      </div>
+
+      <div class="howto-box" style="margin-top: 16px;">
+        <h3>Categorías disponibles</h3>
+        <ol style="list-style:none; padding:0;">
+          <li>• <code>API</code> — Funciones de la API de Anthropic</li>
+          <li>• <code>Modelos</code> — Lanzamientos y deprecaciones de modelos</li>
+          <li>• <code>Claude Code</code> — Updates de la CLI de desarrollo</li>
+          <li>• <code>Aplicaciones</code> — Claude.ai, Cowork, mobile, Office</li>
+          <li>• <code>Herramientas Dev</code> — SDKs, CLIs, integraciones</li>
+          <li>• <code>Plataforma</code> — Bedrock, Vertex AI, Foundry</li>
+          <li>• <code>Investigación</code> — Proyectos de investigación de Anthropic</li>
+        </ol>
+      </div>
+
+      <div class="howto-box" style="margin-top: 16px;">
+        <h3>Despliegue en Vercel (gratis, en 2 minutos)</h3>
+        <ol>
+          <li>Sube la carpeta <code>claude-novedades/</code> a un repositorio GitHub</li>
+          <li>Ve a <code>vercel.com</code> → "Add New Project" → elige ese repo</li>
+          <li>Framework: <strong>Other</strong> (es HTML estático puro)</li>
+          <li>Clic en "Deploy" — obtienes una URL pública al instante</li>
+          <li>Para actualizar: edita <code>data.json</code> y haz push. Auto-despliega.</li>
+        </ol>
+      </div>
+
+      <div class="howto-box" style="margin-top: 16px;">
+        <h3>Fuentes oficiales para seguir novedades</h3>
+        <ol style="list-style:none; padding:0; line-height: 2;">
+          <li>• <a href="https://platform.claude.com/docs/en/release-notes/overview" target="_blank">Claude Platform Release Notes</a> — API y consola</li>
+          <li>• <a href="https://code.claude.com/docs/en/changelog" target="_blank">Claude Code Changelog</a> — actualizaciones de la CLI</li>
+          <li>• <a href="https://support.claude.ai/en/articles/12138966-release-notes" target="_blank">Claude Apps Release Notes</a> — app web y móvil</li>
+          <li>• <a href="https://www.anthropic.com/news" target="_blank">Anthropic News</a> — anuncios y blog</li>
+          <li>• <a href="https://releasebot.io/updates/anthropic" target="_blank">Releasebot / Anthropic</a> — feed agregado automático</li>
+        </ol>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      Datos extraídos de <a href="https://platform.claude.com/docs/en/release-notes/overview" target="_blank">platform.claude.com</a> y
+      <a href="https://www.anthropic.com/news" target="_blank">anthropic.com/news</a>.
+      Sin afiliación oficial con Anthropic.
+    </p>
+  </footer>
+
+  <script>
+    // ═══════════════════════════════════════
+    //  UTILS
+    // ═══════════════════════════════════════
+
+    function badgeClass(cat) {
+      const map = {
+        'API': 'badge-API',
+        'Modelos': 'badge-Modelos',
+        'Claude Code': 'badge-Claude-Code',
+        'Aplicaciones': 'badge-Aplicaciones',
+        'Plataforma': 'badge-Plataforma',
+        'Investigación': 'badge-Investigación',
+        'Herramientas Dev': 'badge-Herramientas-Dev',
+        'Dev': 'badge-Dev',
+        'App': 'badge-App',
+        'AWS': 'badge-AWS',
+        'Azure': 'badge-Azure',
+        'GCP': 'badge-GCP',
+      };
+      return map[cat] || 'badge-API';
+    }
+
+    function formatDate(isoStr) {
+      const d = new Date(isoStr + 'T12:00:00Z');
+      return d.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+    }
+
+    function groupByDate(updates) {
+      const groups = {};
+      updates.forEach(u => {
+        if (!groups[u.date]) groups[u.date] = [];
+        groups[u.date].push(u);
+      });
+      return groups;
+    }
+
+    // ═══════════════════════════════════════
+    //  RENDER UPDATES
+    // ═══════════════════════════════════════
+
+    function renderUpdates(updates) {
+      const container = document.getElementById('updates-container');
+      if (!updates.length) {
+        container.innerHTML = '<div class="empty-state">No hay novedades todavía.</div>';
+        return;
+      }
+
+      const sorted = [...updates].sort((a, b) => b.date.localeCompare(a.date));
+      const groups = groupByDate(sorted);
+
+      container.innerHTML = Object.entries(groups).map(([date, items]) => `
+        <div class="date-group">
+          <div class="date-label">${formatDate(date)}</div>
+          ${items.map(u => `
+            <div class="update-card ${u.isNew ? 'is-new' : ''}">
+              <div class="update-header">
+                <span class="badge ${badgeClass(u.category)}">${u.category}</span>
+                ${u.isNew ? '<span class="new-label">NUEVO</span>' : ''}
+                <span class="update-title">${u.title}</span>
+              </div>
+              <div class="update-desc">${u.description}</div>
+              <div class="update-footer">
+                <span class="update-date">${formatDate(u.date)}</span>
+                <a class="update-link" href="${u.link}" target="_blank" rel="noopener">Ver más</a>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      `).join('');
+    }
+
+    // ═══════════════════════════════════════
+    //  RENDER STATS
+    // ═══════════════════════════════════════
+
+    function renderStats(updates, tools) {
+      const newCount = updates.filter(u => u.isNew).length;
+      const cats = [...new Set(updates.map(u => u.category))].length;
+
+      document.getElementById('stats-bar').innerHTML = `
+        <div class="stat">
+          <span class="stat-value">${updates.length}</span>
+          <span class="stat-label">Novedades</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">${newCount}</span>
+          <span class="stat-label">Esta semana</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">${tools.length}</span>
+          <span class="stat-label">Herramientas</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">${cats}</span>
+          <span class="stat-label">Categorías</span>
+        </div>
+      `;
+    }
+
+    // ═══════════════════════════════════════
+    //  RENDER TOOLS
+    // ═══════════════════════════════════════
+
+    let allTools = [];
+    let activeFilter = 'Todos';
+
+    function renderTools(tools) {
+      const grid = document.getElementById('tools-grid');
+      if (!tools.length) {
+        grid.innerHTML = '<div class="empty-state">No hay herramientas para esta categoría.</div>';
+        return;
+      }
+
+      grid.innerHTML = tools.map(t => `
+        <div class="tool-card">
+          <div class="tool-header">
+            <span class="tool-name">${t.name}</span>
+            <span class="tool-plans">${t.plans}</span>
+          </div>
+          <span class="badge ${badgeClass(t.category)}">${t.category}</span>
+          <div class="tool-desc">${t.description}</div>
+          <a class="tool-link" href="${t.link}" target="_blank" rel="noopener">Documentación</a>
+        </div>
+      `).join('');
+    }
+
+    function renderFilters(tools) {
+      const cats = ['Todos', ...new Set(tools.map(t => t.category))];
+      const container = document.getElementById('tools-filters');
+      container.innerHTML = cats.map(c => `
+        <button class="filter-btn ${c === 'Todos' ? 'active' : ''}"
+          onclick="filterTools('${c}', this)">${c}</button>
+      `).join('');
+    }
+
+    function filterTools(cat, btn) {
+      activeFilter = cat;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filtered = cat === 'Todos' ? allTools : allTools.filter(t => t.category === cat);
+      renderTools(filtered);
+    }
+
+    // ═══════════════════════════════════════
+    //  TAB SWITCHING
+    // ═══════════════════════════════════════
+
+    function showTab(name, btn) {
+      document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
+      document.querySelectorAll('.nav-links button').forEach(b => b.classList.remove('active'));
+      document.getElementById('tab-' + name).classList.add('active');
+      btn.classList.add('active');
+    }
+
+    // ═══════════════════════════════════════
+    //  INIT
+    // ═══════════════════════════════════════
+
+    async function init() {
+      try {
+        const res = await fetch('data.json');
+        const data = await res.json();
+
+        const { updates, tools, site } = data;
+        allTools = tools;
+
+        // Hero meta
+        document.title = site.title;
+        document.querySelector('meta[name="description"]').content = site.description;
+        document.getElementById('hero-date').textContent =
+          'Actualizado: ' + formatDate(site.lastUpdated);
+        document.getElementById('hero-count').textContent =
+          updates.length + ' novedades · ' + tools.length + ' herramientas';
+
+        // Render
+        renderStats(updates, tools);
+        renderUpdates(updates);
+        renderFilters(tools);
+        renderTools(tools);
+
+      } catch (e) {
+        console.error('Error cargando data.json:', e);
+        document.getElementById('updates-container').innerHTML =
+          '<div class="empty-state">Error al cargar los datos. Abre el archivo localmente con un servidor (no doble clic).</div>';
+      }
+    }
+
+    init();
+  </script>
+
+</body>
+</html>

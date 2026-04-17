@@ -1,0 +1,303 @@
+{
+  "site": {
+    "title": "Claude Novedades",
+    "description": "Novedades diarias de Anthropic y Claude: herramientas, modelos y aplicaciones.",
+    "lastUpdated": "2026-04-15"
+  },
+  "updates": [
+    {
+      "id": 1,
+      "date": "2026-04-15",
+      "title": "Claude Sonnet 4 y Opus 4 en deprecación — migra a 4.6",
+      "category": "Modelos",
+      "description": "Anthropic anuncia la retirada de claude-sonnet-4-20250514 y claude-opus-4-20250514 el 15 de junio de 2026. Hay que migrar a Sonnet 4.6 u Opus 4.6, que incluyen ventana de 1M tokens de serie.",
+      "link": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "isNew": true
+    },
+    {
+      "id": 2,
+      "date": "2026-04-14",
+      "title": "Claude Code 2.1.108: control de caché y resumen de sesión",
+      "category": "Claude Code",
+      "description": "Nueva versión con controles de prompt caching (1 hora y forzado 5 min) y una función 'session recap' que muestra al retomar qué estabas haciendo.",
+      "link": "https://code.claude.com/docs/en/changelog",
+      "isNew": true
+    },
+    {
+      "id": 3,
+      "date": "2026-04-14",
+      "title": "Routines en Claude Code: automatizaciones programables",
+      "category": "Claude Code",
+      "description": "Claude Code permite crear rutinas repetibles que se ejecutan en la infraestructura web de Claude aunque el Mac esté offline. Se pueden disparar por horario o trigger.",
+      "link": "https://9to5mac.com/2026/04/14/anthropic-adds-repeatable-routines-feature-to-claude-code-heres-how-it-works/",
+      "isNew": true
+    },
+    {
+      "id": 4,
+      "date": "2026-04-09",
+      "title": "Claude Managed Agents: agentes autónomos gestionados (beta pública)",
+      "category": "API",
+      "description": "Infraestructura completa para ejecutar agentes Claude sin gestionar la capa técnica: sandbox seguro, herramientas integradas y streaming SSE. Coste: $0.08/hora de sesión + tokens.",
+      "link": "https://platform.claude.com/docs/en/managed-agents/overview",
+      "isNew": false
+    },
+    {
+      "id": 5,
+      "date": "2026-04-09",
+      "title": "ant CLI: cliente de línea de comandos para la API de Claude",
+      "category": "Herramientas Dev",
+      "description": "Nueva CLI oficial para interactuar con la API de Claude directamente desde terminal, con integración nativa con Claude Code y versionado de recursos API en YAML.",
+      "link": "https://platform.claude.com/docs/en/api/sdks/cli",
+      "isNew": false
+    },
+    {
+      "id": 6,
+      "date": "2026-04-09",
+      "title": "Advisor Tool en beta pública",
+      "category": "API",
+      "description": "Combina un modelo ejecutor rápido con un modelo consejero de alta inteligencia que da orientación estratégica a mitad de la generación. Ideal para tareas de larga duración.",
+      "link": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool",
+      "isNew": false
+    },
+    {
+      "id": 7,
+      "date": "2026-04-09",
+      "title": "Claude Cowork GA: app de escritorio colaborativa",
+      "category": "Aplicaciones",
+      "description": "Disponible en macOS y Windows con Analytics API, monitorización OpenTelemetry, controles de acceso por roles para empresa y soporte de Computer Use.",
+      "link": "https://platform.claude.com/docs",
+      "isNew": false
+    },
+    {
+      "id": 8,
+      "date": "2026-04-07",
+      "title": "Claude Mythos Preview: ciberseguridad defensiva (solo invitación)",
+      "category": "Investigación",
+      "description": "Proyecto Glasswing: preview de investigación para trabajo de ciberseguridad defensiva. Acceso solo por invitación.",
+      "link": "https://anthropic.com/glasswing",
+      "isNew": false
+    },
+    {
+      "id": 9,
+      "date": "2026-03-30",
+      "title": "Message Batches API: hasta 300k tokens por respuesta",
+      "category": "API",
+      "description": "El límite de max_tokens en la Batches API sube a 300k para Opus 4.6 y Sonnet 4.6. Ideal para contenido largo, datos estructurados y generación masiva de código.",
+      "link": "https://platform.claude.com/docs/en/build-with-claude/batch-processing",
+      "isNew": false
+    },
+    {
+      "id": 10,
+      "date": "2026-02-17",
+      "title": "Claude Sonnet 4.6: velocidad + inteligencia con 1M tokens",
+      "category": "Modelos",
+      "description": "Nuevo Sonnet equilibrado con mejor rendimiento en búsqueda agéntica y menor consumo de tokens. Soporta Extended Thinking y ventana de 1M tokens de serie.",
+      "link": "https://platform.claude.com/docs/en/about-claude/models",
+      "isNew": false
+    },
+    {
+      "id": 11,
+      "date": "2026-02-17",
+      "title": "Web Search y Code Execution: ya disponibles sin beta header",
+      "category": "API",
+      "description": "Web Search Tool y Programmatic Tool Calling son GA. Code Execution es gratis al usarlo junto con web search o web fetch. Filtrado dinámico disponible.",
+      "link": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool",
+      "isNew": false
+    },
+    {
+      "id": 12,
+      "date": "2026-02-05",
+      "title": "Claude Opus 4.6: el modelo más inteligente para agentes complejos",
+      "category": "Modelos",
+      "description": "Diseñado para tareas agénticas de larga duración. Introduce Adaptive Thinking y la Compaction API (resumen de contexto del lado servidor para conversaciones infinitas).",
+      "link": "https://platform.claude.com/docs/en/about-claude/models",
+      "isNew": false
+    },
+    {
+      "id": 13,
+      "date": "2026-02-07",
+      "title": "Fast Mode para Opus 4.6: hasta 2.5x más rápido",
+      "category": "Modelos",
+      "description": "Preview de investigación para Opus 4.6 con generación de tokens mucho más rápida. Precio premium. Apúntate a la lista de espera.",
+      "link": "https://claude.com/fast-mode",
+      "isNew": false
+    }
+  ],
+  "tools": [
+    {
+      "name": "Claude.ai",
+      "category": "App",
+      "description": "La interfaz web principal para usar Claude. Proyectos, artefactos, análisis de archivos y más.",
+      "link": "https://claude.ai",
+      "plans": "Free / Pro / Max"
+    },
+    {
+      "name": "Claude Code",
+      "category": "Dev",
+      "description": "CLI para desarrollo de software con IA. Edita código, crea PRs, ejecuta tests y automatiza workflows con routines y worktrees.",
+      "link": "https://code.claude.com",
+      "plans": "Pro / Max / API"
+    },
+    {
+      "name": "Claude Cowork",
+      "category": "App",
+      "description": "App de escritorio colaborativa con Computer Use, analytics y roles de empresa. Disponible macOS y Windows.",
+      "link": "https://platform.claude.com/docs",
+      "plans": "Pro / Enterprise"
+    },
+    {
+      "name": "Claude para Excel / PowerPoint",
+      "category": "App",
+      "description": "Add-in de Office que comparte contexto entre Excel y PowerPoint. Funciona con Bedrock, Vertex AI y Microsoft Foundry.",
+      "link": "https://platform.claude.com/docs",
+      "plans": "Enterprise"
+    },
+    {
+      "name": "Web Search Tool",
+      "category": "API",
+      "description": "Claude busca en internet en tiempo real con filtrado dinámico que reduce el consumo de tokens.",
+      "link": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool",
+      "plans": "API"
+    },
+    {
+      "name": "Code Execution Tool",
+      "category": "API",
+      "description": "Ejecuta Python y Bash en entorno sandbox seguro. Gratis al usarlo con web search o web fetch.",
+      "link": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool",
+      "plans": "API"
+    },
+    {
+      "name": "Computer Use Tool",
+      "category": "API",
+      "description": "Claude controla el ordenador: mueve el ratón, teclea, hace clic, toma capturas. Disponible en Pro/Max desde Claude Cowork.",
+      "link": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool",
+      "plans": "API / Pro"
+    },
+    {
+      "name": "Memory Tool",
+      "category": "API",
+      "description": "Claude guarda y consulta información entre conversaciones de forma persistente.",
+      "link": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool",
+      "plans": "API"
+    },
+    {
+      "name": "Tool Search Tool",
+      "category": "API",
+      "description": "Claude descubre herramientas dinámicamente en catálogos grandes sin cargarlas todas. Reduce el uso de tokens un 85%.",
+      "link": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool",
+      "plans": "API"
+    },
+    {
+      "name": "Programmatic Tool Calling",
+      "category": "API",
+      "description": "Claude llama herramientas desde código Python, orquestando varias a la vez. 37% menos tokens en tareas complejas.",
+      "link": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling",
+      "plans": "API"
+    },
+    {
+      "name": "Advisor Tool",
+      "category": "API",
+      "description": "Modelo ejecutor rápido + modelo consejero inteligente en paralelo. Calidad de Opus al precio de Haiku.",
+      "link": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool",
+      "plans": "API"
+    },
+    {
+      "name": "Agent Skills",
+      "category": "API",
+      "description": "Paquetes de instrucciones y scripts especializados: Word, Excel, PDF, PowerPoint incluidos. Puedes crear los tuyos propios.",
+      "link": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview",
+      "plans": "API"
+    },
+    {
+      "name": "MCP Connector",
+      "category": "API",
+      "description": "Conecta servidores MCP remotos directamente desde la API sin infraestructura extra.",
+      "link": "https://platform.claude.com/docs/en/agents-and-tools/mcp-connector",
+      "plans": "API"
+    },
+    {
+      "name": "Claude Managed Agents",
+      "category": "API",
+      "description": "Agentes autónomos totalmente gestionados: sandbox, herramientas y SSE streaming incluidos. Sin gestionar infraestructura.",
+      "link": "https://platform.claude.com/docs/en/managed-agents/overview",
+      "plans": "API"
+    },
+    {
+      "name": "Files API",
+      "category": "API",
+      "description": "Sube archivos una vez y referéncialos en múltiples conversaciones sin reenviarlos cada vez.",
+      "link": "https://platform.claude.com/docs/en/build-with-claude/files",
+      "plans": "API"
+    },
+    {
+      "name": "Prompt Caching",
+      "category": "API",
+      "description": "Cachea partes del prompt (hasta 1 hora). Hasta 90% menos coste y 80% menos latencia en prompts largos repetidos.",
+      "link": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+      "plans": "API"
+    },
+    {
+      "name": "Structured Outputs",
+      "category": "API",
+      "description": "Garantiza que la respuesta de Claude siga un esquema JSON exacto. Ideal para integraciones.",
+      "link": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs",
+      "plans": "API"
+    },
+    {
+      "name": "Extended / Adaptive Thinking",
+      "category": "API",
+      "description": "Claude 'piensa' antes de responder. Adaptive Thinking (Opus 4.6) ajusta automáticamente el esfuerzo.",
+      "link": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking",
+      "plans": "API"
+    },
+    {
+      "name": "ant CLI",
+      "category": "Dev",
+      "description": "Cliente de línea de comandos oficial para la API. Integración con Claude Code y versionado de recursos en YAML.",
+      "link": "https://platform.claude.com/docs/en/api/sdks/cli",
+      "plans": "API"
+    },
+    {
+      "name": "Message Batches API",
+      "category": "API",
+      "description": "Procesa miles de mensajes en paralelo de forma asíncrona al 50% del precio normal. Hasta 300k tokens por respuesta.",
+      "link": "https://platform.claude.com/docs/en/build-with-claude/batch-processing",
+      "plans": "API"
+    },
+    {
+      "name": "Citations",
+      "category": "API",
+      "description": "Claude cita automáticamente las fuentes de sus respuestas con atribución precisa.",
+      "link": "https://platform.claude.com/docs/en/build-with-claude/citations",
+      "plans": "API"
+    },
+    {
+      "name": "Compaction API",
+      "category": "API",
+      "description": "Resumen del contexto en el servidor para conversaciones de duración prácticamente infinita. Disponible en Opus 4.6.",
+      "link": "https://platform.claude.com/docs/en/build-with-claude/compaction",
+      "plans": "API"
+    },
+    {
+      "name": "Claude en Amazon Bedrock",
+      "category": "Plataforma",
+      "description": "Accede a Claude vía infraestructura AWS con la misma API que en primera parte. Preview en us-east-1.",
+      "link": "https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock-research-preview",
+      "plans": "AWS"
+    },
+    {
+      "name": "Claude en Microsoft Foundry",
+      "category": "Plataforma",
+      "description": "Claude en Azure con facturación Azure y OAuth. Soporta Extended Thinking, Prompt Caching, PDF y herramientas.",
+      "link": "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry",
+      "plans": "Azure"
+    },
+    {
+      "name": "Claude en Google Vertex AI",
+      "category": "Plataforma",
+      "description": "Claude en GCP con ventana de 1M tokens, precios globales de endpoint y todas las capacidades de la API.",
+      "link": "https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai",
+      "plans": "GCP"
+    }
+  ]
+}
