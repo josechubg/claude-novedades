@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Banco de Anatomía — 1º Medicina</title>
+  <title>Banco de Anatomía — 1º Medicina · 180 preguntas</title>
   <style>
     :root {
       --bg: #0d0d0d;
@@ -18,10 +18,16 @@
       --orange: #f5a623;
       --radius: 10px;
 
-      --ms: #4f9cf9;   /* azul - miembro superior */
-      --mi: #5ecf5e;   /* verde - miembro inferior */
-      --cr: #c87af5;   /* morado - cráneo */
-      --vt: #f5a623;   /* naranja - vértebras */
+      --ms: #4f9cf9;
+      --mi: #5ecf5e;
+      --cr: #c87af5;
+      --vt: #f5a623;
+      --dif-bas: #3a3a3a;
+      --dif-bas-t: #aaa;
+      --dif-med: #1a2e3a;
+      --dif-med-t: #6ab0f5;
+      --dif-dif: #3a1a1a;
+      --dif-dif-t: #f56a6a;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
@@ -151,6 +157,18 @@
     .badge-mi { background: #0d2e0d; color: var(--mi); }
     .badge-cr { background: #1a0d2e; color: var(--cr); }
     .badge-vt { background: #2e1a0d; color: var(--vt); }
+
+    .dif-badge {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 4px;
+      letter-spacing: 0.04em;
+    }
+    .dif-basica  { background: var(--dif-bas); color: var(--dif-bas-t); }
+    .dif-media   { background: var(--dif-med); color: var(--dif-med-t); }
+    .dif-dificil { background: var(--dif-dif); color: var(--dif-dif-t); }
 
     .question-text {
       font-size: 17px; font-weight: 600;
@@ -305,9 +323,25 @@
   <!-- ═══ INICIO ═══ -->
   <div id="screen-home">
     <h1 class="home-title">Banco de Preguntas<br>Anatomía</h1>
-    <p class="home-sub">90 preguntas tipo test · 4 bloques · Nivel 1º Medicina</p>
+    <p class="home-sub">180 preguntas tipo test · 4 bloques · 3 niveles de dificultad</p>
 
     <div class="bloques-grid" id="bloques-grid"></div>
+
+    <p style="color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:12px;">Dificultad</p>
+    <div class="mode-selector" style="margin-bottom:20px">
+      <button class="mode-btn selected" data-dif="todas" onclick="selectDif(this)">
+        Todas<br><small style="font-weight:400;font-size:11px">Mezcladas</small>
+      </button>
+      <button class="mode-btn" data-dif="basica" onclick="selectDif(this)">
+        Básica<br><small style="font-weight:400;font-size:11px">Conceptos clave</small>
+      </button>
+      <button class="mode-btn" data-dif="media" onclick="selectDif(this)">
+        Media<br><small style="font-weight:400;font-size:11px">Correlación clínica</small>
+      </button>
+      <button class="mode-btn" data-dif="dificil" onclick="selectDif(this)">
+        Difícil<br><small style="font-weight:400;font-size:11px">Nivel MIR</small>
+      </button>
+    </div>
 
     <p style="color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:12px;">Modo</p>
     <div class="mode-selector">
@@ -379,7 +413,8 @@ let currentIdx = 0;
 let answered = false;
 let selectedBloque = 'Todos';
 let selectedMode = 'practica';
-let results = []; // {q, userAnswer, correct, skipped}
+let selectedDif = 'todas';
+let results = [];
 let scOk = 0, scKo = 0;
 
 const BLOQUES = [
@@ -413,6 +448,12 @@ function getBadgeClass(bloque) {
 // ══════════════════════════════════════════════
 // HOME
 // ══════════════════════════════════════════════
+function getFiltered() {
+  let q = selectedBloque === 'Todos' ? [...allQ] : allQ.filter(q => q.bloque === selectedBloque);
+  if (selectedDif !== 'todas') q = q.filter(x => x.dificultad === selectedDif);
+  return q;
+}
+
 function renderBloques() {
   const grid = document.getElementById('bloques-grid');
   grid.innerHTML = BLOQUES.map(b => {
@@ -437,13 +478,25 @@ function selectBloque(key, el) {
 
 function selectMode(btn) {
   selectedMode = btn.dataset.mode;
-  document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('selected'));
+  document.querySelectorAll('.mode-btn').forEach(b => {
+    if (b.dataset.mode !== undefined) b.classList.remove('selected');
+  });
   btn.classList.add('selected');
 }
 
+function selectDif(btn) {
+  selectedDif = btn.dataset.dif;
+  document.querySelectorAll('.mode-btn').forEach(b => {
+    if (b.dataset.dif !== undefined) b.classList.remove('selected');
+  });
+  btn.classList.add('selected');
+  updateNumPreguntas();
+}
+
 function updateNumPreguntas() {
-  const n = selectedBloque === 'Todos' ? allQ.length : allQ.filter(q => q.bloque === selectedBloque).length;
-  document.getElementById('num-preguntas').textContent = `${n} preguntas seleccionadas`;
+  const n = getFiltered().length;
+  const dif = selectedDif === 'todas' ? 'todas las dificultades' : `dificultad ${selectedDif}`;
+  document.getElementById('num-preguntas').textContent = `${n} preguntas · ${dif}`;
 }
 
 // ══════════════════════════════════════════════
@@ -459,7 +512,8 @@ function shuffle(arr) {
 }
 
 function startQuiz() {
-  filtered = selectedBloque === 'Todos' ? [...allQ] : allQ.filter(q => q.bloque === selectedBloque);
+  filtered = getFiltered();
+  if (!filtered.length) { alert('No hay preguntas para esta selección.'); return; }
   queue = shuffle(filtered);
   currentIdx = 0;
   results = [];
@@ -481,8 +535,9 @@ function renderQuestion() {
 
   // badge
   const badge = document.getElementById('q-badge');
-  badge.textContent = q.bloque;
-  badge.className = 'q-bloque-badge ' + getBadgeClass(q.bloque);
+  const difLabel = {basica:'Básica', media:'Media', dificil:'Difícil'}[q.dificultad] || '';
+  badge.className = '';
+  badge.innerHTML = `<span class="q-bloque-badge ${getBadgeClass(q.bloque)}">${q.bloque}</span>&nbsp;<span class="dif-badge dif-${q.dificultad}">${difLabel}</span>`;
 
   document.getElementById('q-text').textContent = q.pregunta;
 
